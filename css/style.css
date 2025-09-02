@@ -10,6 +10,12 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 26%,
 
 }
 
+body.dark-mode{
+background:#000000 ;
+color:#eded24
+
+}
+
 h1,h2,h3,h4,h5,h6{
     font-family: "Gabarito", sans-serif;
     font-size: 48px;
@@ -19,6 +25,9 @@ h1{
     font-size: 48px;
     text-align:center;
     line-height: 1em;
+}
+body.dark-mode h1{
+    color:rgb(243, 53, 218);
 }
 
 h2{
@@ -61,6 +70,7 @@ transition: all 200ms ease;
 background-color: #eded24;   
 color: #000000;
 border-radius: 0px;
+cursor:pointer;
 }
 
 a:hover{
