@@ -8,8 +8,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML semántico & CSS básico</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Práctiva de html semántico y propiedades básicas de CSS</h1>
+    
+    <header id="main-header">
+    <nav>
+        <ul>
+            <li>
+                <a class="nav-link" href="./index.html" title="Ir a la página de inicio">INICIO</a>
+            </li>
+            <li>
+                <a class="nav-link" href="./contacto.html" title="Ir a la página de inicio">CONTACTO</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+ <main>
+    <section id="home">
+     <header>
+    <h1>HTML & CSS Básico</h1>
+    <p> HTML, es un lenguaje de marcado que se utiliza para crear páginas web. CSS es un lenguaje de hojas de estilo que se utiliza para dar estilo a las páginas web.<p>
+    </header>
+   <!-- tag de de artículo-->
+    <nav>
+    <ul>
+    <li>
+        <a href="#home" title="Ir a la página de inicio">Inicio</a>
+    </li>
+    <li>
+        <a href="#html-article" title="Ir al artículo de HTML">HTML</a>
+    </li>
+    <li>
+        <a href="#css-article" title="Ir al artículo de CSS">CSS</a>
+    </li>
+</ul>
+    </nav>
+    <hr>
+<!-- tag de artículo-->
+    <article id="html-article">
+        <header>
+        <h2>HTML Semántico</h2>
+        <p>HTML semántico es el uso de las etiquetas HTML para estructurar el contenido de una página web de manera que sea más fácil de entender para los humanos y los robots de los buscadores.</p>
+        </header>
+        <ul>
+            <li>header: encabezado de la página </li>
+            <li>nav: navegación de la página</li>
+            <li>main: contenido principal de la página</li>
+            <li>article: artículo de página</li>
+            <li>section: sección de la página</li>
+            <li>footer: pie de página</li>
+        </ul>
+    </article>
+
+    <article id="css-article">
+        <h2>CSS Básico</h2>
+        <p>Css en un lenguaje de hojas de estilo que se utiliza para dar estilo a las páginas web.</p>
+    </article>
+</section>
+</main>
+<footer>
+    <p>CENTRO | Diseño, Cine, Televisión | 2025</p>
+</footer>
+
 </body>
 </html>

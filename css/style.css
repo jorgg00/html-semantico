@@ -1,0 +1,80 @@
+body{
+    background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 26%, rgba(0, 212, 255, 1) 100%);
+
+    color: #ece6e6;
+
+    /* aqui se alistan las propiedads*/
+    font-family: "Cal Sans", sans-serif;
+    line-height:1.5em;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Gabarito", sans-serif;
+    font-size: 48px;
+   
+}
+h1{
+    font-size: 48px;
+    text-align:center;
+    line-height: 1em;
+}
+
+h2{
+    
+    font-size: 32px;
+} 
+
+h3{ 
+    font-size: 24px;
+
+}
+a{
+    color: rgb(74, 197, 221);
+    font-weight:900;
+    text-transform: uppercase;
+}
+
+/*Estos son estilos de header*/
+#main-header ul {
+    list-style: none;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#main-header li {
+    display: inline;
+}
+
+.nav-link{
+    padding: 10px;
+    border: 5px solid rgb(221, 240, 15);
+    border-radius: 10px;
+    margin: 10px;
+    text-decoration: none;
+    transition: all 800ms ease;
+}
+
+.nav-link:hover{
+transition: all 200ms ease;
+background-color: #eded24;   
+color: #000000;
+border-radius: 0px;
+}
+
+a:hover{
+    color: yellow;
+}
+
+main{
+    width:80%;
+    max-width:1280px;
+    margin:40px auto;
+}
+
+
+
+footer{
+    text-align:center;
+}
